@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/Mamun746/calculate-temperature/static/js/main.bcf2dc34.chunk.js",
+    "main.js.map": "/Mamun746/calculate-temperature/static/js/main.bcf2dc34.chunk.js.map",
+    "runtime~main.js": "/Mamun746/calculate-temperature/static/js/runtime~main.7dd3663a.js",
+    "runtime~main.js.map": "/Mamun746/calculate-temperature/static/js/runtime~main.7dd3663a.js.map",
+    "static/js/2.ce9cbc03.chunk.js": "/Mamun746/calculate-temperature/static/js/2.ce9cbc03.chunk.js",
+    "static/js/2.ce9cbc03.chunk.js.map": "/Mamun746/calculate-temperature/static/js/2.ce9cbc03.chunk.js.map",
+    "index.html": "/Mamun746/calculate-temperature/index.html",
+    "precache-manifest.383d9b1ad19456f673f6795d33c274d4.js": "/Mamun746/calculate-temperature/precache-manifest.383d9b1ad19456f673f6795d33c274d4.js",
+    "service-worker.js": "/Mamun746/calculate-temperature/service-worker.js"
+  }
+}
