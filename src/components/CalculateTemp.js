@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TempInput from './TempInput'
+import TempResult from './TempResult'
 
 function toCelsius(fahrenheit){
     return (fahrenheit-32) * 5 / 9
@@ -41,12 +42,14 @@ class CalculateTemp extends Component {
     render() { 
         const temperature=this.state.temperature;
         const scale=this.state.scale
-        const celsius=scale=='f'?tryConvert(temperature,toCelsius):temperature
-        const fahrenheit=scale=='c'?tryConvert(temperature,toFahrenheit):temperature
+        const celsius=scale==='f'?tryConvert(temperature,toCelsius):temperature
+        const fahrenheit=scale==='c'?tryConvert(temperature,toFahrenheit):temperature
         return (
             <div>
               <TempInput scale='c' temperature={celsius} onHandleChange={this.onCelsiusTempChange}/>  
-              <TempInput scale='f' temperature={fahrenheit} onHandleChange={this.onFahrenheitTempChange}/>  
+              <TempInput scale='f' temperature={fahrenheit} onHandleChange={this.onFahrenheitTempChange}/> 
+              
+              <TempResult celsius={celsius}/>
             </div>
         );
     }
