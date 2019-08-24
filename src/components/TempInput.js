@@ -16,7 +16,7 @@ class TempInput extends Component {
         const temperature=this.props.temperature
         return (
             <div>
-                <label>Inter Temperature in {scaleName[scale]}</label>
+                <label style={{fontSize:'20px',color:'green'}}>Inter Temperature in {scaleName[scale]}</label>
                 <input className="form-control" value={temperature} onChange={this.onChange} />
             </div>
         );

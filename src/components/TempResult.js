@@ -3,7 +3,7 @@ import React from 'react';
 const TempResult = (props) => {
     return (
         <div style={{padding:'10px',fontSize:'40px'}}>
-            {props.celsius>=100?<h5 style={{fontSize:'40px'}}>>The Water is boiling....</h5>:<h5>The water is not boiling yet</h5>}
+            {props.celsius>=100?<h4>The Water is boiling....😢</h4>:<h4>The Water is boiling yet...😄</h4>}
         </div>
     );
 };
